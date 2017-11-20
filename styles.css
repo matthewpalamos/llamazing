@@ -1,0 +1,199 @@
+/*
+  padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+*/
+
+body {
+  font-family: "Roboto";
+}
+
+.navbar {
+    background: rgba(0,0,0,0.7);
+}
+
+.navbar-toggle  {
+  margin: 20px;
+}
+
+
+.navbar .navbar-inverse {
+  opacity: 0.7;
+  width: 100%;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color : white;
+}
+
+.navbar-right {
+  font-size: 18px;
+  padding: 10px 0px 10px;
+}
+
+.navbar-brand {
+  padding: 0px;
+  height: 0%;
+}
+
+.navbar-brand>img {
+  height: 0%;
+  padding: 0px;
+  width: auto
+}
+
+.navbar-default{ /* assigning the top bar to the entire navbar div element */
+    text-align: center;
+    box-shadow: inset 0px 6px 0px #777; /* initial gray color to the top bar */
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #AAA;
+    box-shadow: inset 0px 6px 0px red; /* switch to a darker color on hover */
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: red;
+    background-color: red;
+    box-shadow: inset 0px 6px 0px red; /* switch to a lighter color for active element */
+}
+
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+
+
+.btn {
+  font-style: center;
+  padding: 5px 10px 10px 10px;
+  line-height: 2em;
+}
+
+
+.img1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-color: red;
+  border-width: 0px 0px 5px 0px;
+}
+
+
+.list {
+  margin: -30px 0px 10px 40px;
+  font-size: 20px;
+  color: red;
+}
+
+li {
+    color: black;
+    list-style-type: none;
+}
+.list li:before {
+    content: '\2022';
+    color: red;
+    padding-right: 0.5em;
+}
+
+.line1 {
+  padding: 2px;
+  color: #f00;
+  background: #f00;
+  width: 112%;
+  height: 1px;
+}
+
+.hr {
+  color: #f00;
+  background: #f00;
+  width: 10%;
+  height: 2px;
+  float: left;
+  padding: 0px 0px 0px 150px;
+  margin: 20px 40px;
+
+}
+
+.second {
+  height: 100%;
+  width: 100%;
+  margin: -100px 0px 20px;
+}
+
+.container {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+.container img {
+  width: 100%;
+  background-size: 100% 100%;
+  border-style: solid;
+}
+
+.container2 {
+  width: 100%;
+  background-size: 100% 100%;
+  border-style: solid;
+  border-color: red;
+  border-width: 0px 0px 0px 0px;
+}
+.col-lg-6 {
+  padding: 0px 0px 0px 0px;
+  float: right;
+}
+
+.img2 {
+  margin: 160px 0px 0px 30px;
+}
+
+.jumbotron {
+  background: rgba(255,255,255,0.3);
+  margin: 180px 250px 0px 250px
+}
+
+.jumbotron h1 {
+  color: red;
+  font-size: 45px;
+  text-align: center
+}
+
+.jumbotron h6 {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.third {
+  border-style: solid;
+  border-color: red;
+  border-width: 10px 0px 100px 0px;
+  background-image: url(http://media.egia.org/skills_test/bonusBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 20px 40px 10px;
+  color: red
+}
+
+h3 {
+  margin: -4px 40px;
+  font-size: 25px;
+}
+
+p {
+  margin: 43px;
+  width: 52%;
+  font-size: 20px;
+}
+
+
+
