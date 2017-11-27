@@ -170,11 +170,11 @@ li {
 }
 
 .third {
-  float: center;
   border-style: solid;
   border-color: red;
   border-width: 10px 0px 100px 0px;
   background-image: url(http://media.egia.org/skills_test/bonusBG.png);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
