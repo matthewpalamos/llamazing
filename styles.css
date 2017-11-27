@@ -144,17 +144,17 @@ li {
   border-width: 0px 0px 0px 0px;
 }
 .col-lg-6 {
-  padding: 0px 0px 0px 0px;
   float: right;
 }
 
 .img2 {
-  margin: 160px 0px 0px 30px;
+  height: margin: 0px 0px -50%;
 }
 
 .jumbotron {
   background: rgba(255,255,255,0.3);
-  margin: 180px 250px 0px 250px
+  margin: 10% 25% 10% 25%;
+  float: center;
 }
 
 .jumbotron h1 {
@@ -170,6 +170,7 @@ li {
 }
 
 .third {
+  float: center;
   border-style: solid;
   border-color: red;
   border-width: 10px 0px 100px 0px;
