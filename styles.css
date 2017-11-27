@@ -71,7 +71,7 @@ body {
 
 .btn {
   font-style: center;
-  padding: 5px 10px 10px 10px;
+  padding: 5px 10px 5px 10px;
   line-height: 2em;
 }
 
@@ -84,21 +84,22 @@ body {
   border-width: 0px 0px 5px 0px;
 }
 
-
-.list {
-  margin: -30px 0px 10px 40px;
-  font-size: 20px;
-  color: red;
-}
-
 li {
     color: black;
     list-style-type: none;
 }
+
+
+.list {
+  margin: -30px 0px 10px 40px;
+  font-size: 14px;
+  color: red;
+}
+
 .list li:before {
-    content: '\2022';
-    color: red;
-    padding-right: 0.5em;
+  content: '\2022';
+  color: red;
+  padding-right: 0.5em;
 }
 
 .line1 {
@@ -121,9 +122,7 @@ li {
 }
 
 .second {
-  height: 100%;
   width: 100%;
-  margin: -100px 0px 20px;
 }
 
 .container {
@@ -148,7 +147,7 @@ li {
 }
 
 .img2 {
-  height: margin: 0px 0px -50%;
+  height: 750px;
 }
 
 .jumbotron {
@@ -193,7 +192,7 @@ h3 {
 p {
   margin: 43px;
   width: 52%;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 
